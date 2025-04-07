@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Amazon Blog</title>
+</head>
+<body>
+    <center>
+        <h2>Amazon Registration</h2>
+        <form action="register_handler" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+
+                <tr>
+                    <td><label for="confirmpassword">Confirm Password:</label></td>
+                    <td><input type="password" id="confirmpassword" name="confirmpassword" required></td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+
+                <tr>
+                    <td><label for="mobile">Mobile Number:</label></td>
+                    <td><input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required placeholder="10-digit number"></td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" name="dob" required></td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><textarea id="address" name="address" required></textarea></td>
+                </tr>
+                <tr><td colspan="2"><br></td></tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
